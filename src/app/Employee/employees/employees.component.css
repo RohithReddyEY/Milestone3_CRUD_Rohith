@@ -1,0 +1,164 @@
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0 15px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .col-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  
+  .col {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+  }
+ 
+  
+  .btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  
+  .btn-dark {
+    background-color: #343a40;
+    border-color: #343a40;
+    color: #fff;
+  }
+  
+  .btn-dark:hover {
+    background-color: #23272b;
+    border-color: #1d2124;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #fff;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+  }
+  
+  .table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    background-color: transparent;
+    border-collapse: collapse;
+  }
+  
+  .table td,
+  .table th {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .table th {
+    font-weight: bold;
+    text-align: inherit;
+    border-bottom: 2px solid #dee2e6;
+  }
+  
+  .table-bordered {
+    border: 1px solid #dee2e6;
+  }
+  
+  .table-bordered td,
+  .table-bordered th {
+    border: 1px solid #dee2e6;
+  }
+  
+  .table-borderless td,
+  .table-borderless th {
+    border: 0;
+  }
+  .btn {
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .btn-light {
+    background-color: grey;
+    color: yellow;
+    border: 1px solid #ccc;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+  }
+  
+  .btn:focus,
+  .btn:hover {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .btn:active {
+    transform: translateY(1px);
+  }
+  
+  .heading {
+    background-color: #f7f7f7;
+    font-weight: 600;
+  }
+  
+  .heading th {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .heading th:first-child {
+    border-top-left-radius: 6px;
+  }
+  
+  .heading th:last-child {
+    border-top-right-radius: 6px;
+  }
+  .body td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .body td:first-child {
+    border-left: none;
+  }
+  
+  .body td:last-child {
+    border-right: none;
+  }
+  
+  .body:last-child td {
+    border-bottom: none;
+  }
+  h2 {
+    font-size: 28px; /* adjust font size as needed */
+    font-weight: bold; /* make the text bold */
+    text-align: center; /* center the heading */
+    color: palevioletred; /* set text color to a dark gray */
+    margin-top: 20px; /* add some top margin to create space */
+  }
+  
+  

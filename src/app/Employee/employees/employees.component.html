@@ -1,0 +1,44 @@
+<div class="container">
+
+    <br/>
+    <br/>
+
+    <div class="row">
+        <div class="col-9">
+            <h2>Employees Table</h2>
+        </div>
+        <div class="col">
+            <button type="button" class="btn btn-success" routerLink="employee-add">Add Employees</button>
+        </div>
+    </div>
+    <br/>
+    <table *ngIf="employees.length > 0" class="table table-borderless" >
+        <thead>
+            <tr class="heading">
+            <th scope="col">Employee Id</th>
+            <th scope="col">Employee Name</th>
+            <th scope="col">Address</th>
+            <th scope="col">phone</th>
+            <th scope="col">Country</th>
+            <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr  class="body" *ngFor="let employee of employees">
+                <td>{{employee.id}}</td>
+                <td>{{employee.name}}</td>
+                <td>{{employee.address}}</td>
+                <td>{{employee.phone}}</td>
+                <td>{{employee.country}}</td>
+                <td>
+                    <button type="button_edit" class="btn btn-light" routerLink="employee-edit/{{employee.id}}">Edit</button>
+                    &nbsp; &nbsp;
+                    <button type="button_delete" class="btn btn-danger" (click)="deleteEmployee(employee.id)">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+
+

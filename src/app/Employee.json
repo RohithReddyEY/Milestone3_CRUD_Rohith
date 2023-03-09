@@ -1,0 +1,25 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Rohith",
+      "address": "Bangalore",
+      "phone": 8328679430,
+      "country": "India"
+    },
+    {
+      "id": 2,
+      "name": "Sam",
+      "address": "Chennai",
+      "phone": 8765432189,
+      "country": "India"
+    },
+    {
+      "id": 3,
+      "name": "Rahul",
+      "address": "Mumbai",
+      "phone": 9090909090,
+      "country": "India"
+    }
+  ]
+}

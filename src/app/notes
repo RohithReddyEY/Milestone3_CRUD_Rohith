@@ -1,0 +1,22 @@
+To create an Employee Crud Orprations we have to follow the steps:-
+
+1. create new angular project
+2. create new angular services
+3. import HttpClientModule in module.ts
+4. setup Mock JSON server -> install  json-server
+                          -> create a json file
+                          ->start mock server
+5.Do CRUD methods in service class
+6.consume the services and CRUD methods in components.     
+
+here i have created 4 components
+ 1st i created one component saparate which is navbar so that it is comman for all the components.
+
+ now i created 3 components in one folder 
+ Employees component - i have used to get all employee list and to show CRUD operations.
+ Employee-Add -  i have used to add new employee record.
+ Employee-Edit - i have used to edit employee details.
+
+ i worte all the necessary functions in component.ts and i called in component.html
+
+ 
